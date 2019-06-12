@@ -1,0 +1,75 @@
+
+$green:               #55a532;
+$blue:                #1989FA;
+
+footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	.btn-row {
+		height: 100%;
+		.btn-area {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			.blue {
+				color: $blue;
+			}
+			.record {
+				color: $blue;
+				font-size: 4.4rem;
+				text-align: center;
+				line-height: 4.4rem;
+				border: 2px solid $blue;
+				border-radius: 2.5rem;
+				width: 4.4rem;
+				height: 4.4rem;
+				box-shadow: 0 0 1rem $blue;
+			}
+			.record-touch {
+				color: #1080F1;
+				border: 2px solid #1080F1;
+				box-shadow: 0 0 3rem #1080F1;
+			}
+			.sound {
+				color: $green;
+				font-size: 1.5rem;
+				width: 2.5rem;
+				height: 2.5rem;
+				border: 2px solid $green;
+				border-radius: 1.5rem;
+				line-height: 2.5rem;
+				text-align: center;
+			}
+			.next-btn {
+				color: $green;
+				font-size: 4.4rem;
+				text-align: center;
+				line-height: 4.4rem;
+				margin-left: 2rem;
+				margin-right: 2rem;
+				border-radius: 2.5rem;
+				width: 4.4rem;
+				height: 4.4rem;
+				box-shadow: 0 0 1rem $green;
+			}
+			.next-btn-touch {
+				color: #469623;
+				box-shadow: 0 0 3rem #469623;
+			}
+			.refresh {
+				color: $green;
+				font-size: 1.5rem;
+				width: 2.5rem;
+				height: 2.5rem;
+				border: 2px solid $green;
+				border-radius: 1.5rem;
+				line-height: 2.5rem;
+				text-align: center;
+			}
+			.green {
+				color: $green;
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+
+.practice-item {
+	margin-top: 20px;
+	display: flex;
+	.left {
+		height: 4rem;
+		flex-grow: 1;
+		.van-button__text {
+			font-weight: 500;
+			font-size: 16px;
+		}
+		.title {
+			margin-left: -5px;
+		}
+		h2 {
+			span {
+				font-weight: 600;
+				font-size: 18px;
+			}
+		}
+	}
+	.right {
+		height: 4rem;
+		width: 4rem;
+		line-height: 4rem;
+	}
+	h3 {
+		margin-top: 10px;
+		color: #d1d1d1;
+	}
+}

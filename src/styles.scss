@@ -1,0 +1,27 @@
+
+$dark:             #323233;
+
+#app {
+	.nav-bar {
+		width: 100%;
+		height: 54px;
+		line-height: 54px;
+		position: relative;
+		top: 0px;
+		.van-nav-bar__arrow {
+			color: $dark;
+			font-weight: 600;
+			font-size: 22px;
+		}
+		.van-nav-bar__text {
+			color: $dark;
+			font-weight: 600;
+			font-size: 22px;
+		}
+		.van-nav-bar__title {
+			color: $dark;
+			font-size: 22px;
+			font-weight: 600;
+		}
+	}
+}

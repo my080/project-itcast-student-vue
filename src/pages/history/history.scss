@@ -1,0 +1,36 @@
+
+
+.history {
+	height: 100vh;
+	background: #f3f3f3;
+	.exercise-list {
+		margin-top: 20px;
+	}
+}
+
+.exercise-info {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	main {
+		background: #ffffff;
+		padding-top: 4rem;
+		display: flex;
+		align-items: center;
+		height: 16rem;
+		flex-direction: column;
+		.van-circle {
+			.van-circle__text {
+				top: 45%;
+				font-size: 32px;
+			}
+		}
+		h2 {
+			color: #aaaaaa;
+			margin-top: -5rem;
+			font-weight: 500;
+			z-index: 80;
+			font-size: 20px;
+		}
+	}
+}

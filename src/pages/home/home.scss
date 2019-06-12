@@ -1,0 +1,12 @@
+
+@import "../../common/styles/reset.scss";
+
+.home {
+	display: flex;
+	flex-direction: column;
+	.content {
+		overflow-y: scroll;
+		padding-top: 52px;
+		padding-bottom: 82px;
+	}
+}

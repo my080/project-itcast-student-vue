@@ -1,0 +1,101 @@
+
+.personal {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	.list {
+		flex-grow: 1;
+		.van-cell {
+			font-size: 20px;
+			padding: 20px 15px;
+		}
+	}
+}
+
+.personal-information {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	.list {
+		flex-grow: 1;
+		.van-cell {
+			font-size: 20px;
+			padding: 20px 15px;
+		}
+	}
+	.van-uploader {
+		float: right;
+		height: 40px;
+		.icon {
+			font-size: 40px;
+			color: #999999;
+		}
+	}
+}
+
+.change-teacher {
+	background: #f4f4f4;
+	height: 100vh;
+}
+
+.van-doc {
+	margin: 0;
+	font-weight: 400;
+	font-size: 14px;
+	color: rgba(69,90,100,.6);
+	padding: 35px 15px 15px;
+}
+
+.login-input {
+	font-size: 18px;
+	line-height: 26px;
+	padding: 18px 15px;
+}
+
+.login-btn {
+	position: relative;
+	margin-top: 1rem;
+	width: 100%;
+}
+
+.btn-row {
+	padding-top: 1.2rem;
+}
+
+.join-title {
+	margin: 10px;
+	color: orange;
+}
+
+.change-class {
+	background: #f4f4f4;
+	height: 100vh;
+}
+
+.personal-classroom {
+	article {
+		display: inline-block;
+	}
+	.btn-row {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.van-cell {
+		font-size: 20px;
+		padding: 20px 15px;
+	}
+	.icon {
+		font-size: 40px;
+		color: #999999;
+		display: block;
+		text-align: center;
+	}
+}
+
+.students {
+	background: #F2F3F5;
+	height: 100vh;
+	.students-list {
+		margin-top: 20px;
+	}
+}

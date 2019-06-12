@@ -1,0 +1,15 @@
+
+.it-english-read-sentence-I-I {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	content {
+		padding-left: 20px;
+		padding-right: 20px;
+		small {
+			line-height: 20px;
+			display: block;
+			margin-top: 10px;
+		}
+	}
+}

@@ -1,0 +1,169 @@
+
+@import "../../common/styles/reset.scss";
+
+.login {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	.logo-area {
+		display: flex;
+		flex-grow: 1;
+		flex-direction: column;
+		align-items: center;
+		.logo {
+			margin-top: 8rem;
+			width: 7rem;
+			height: 7rem;
+			background: url("../../assets/images/logo.jpg") no-repeat;
+			background-size: contain;
+		}
+		h2 {
+			margin-top: 0;
+			font-size: 1.8rem;
+			font-weight: 600;
+		}
+	}
+	.btn-area {
+		display: flex;
+		height: 12rem;
+		flex-direction: column;
+	}
+	header {
+		height: 13rem;
+	}
+	main {
+		flex-grow: 1;
+		padding: 0;
+		.input-area{
+			border-right: solid 1px #ebedf0;
+			border-left: solid 1px #ebedf0;
+		}
+		.checkbox-row {
+			margin-top: 10px;
+		}
+		.forget-password {
+			margin-left: 20px;
+		}
+	}
+	footer {
+		height: 4rem;
+		.left {
+			float: left;
+		}
+		.right {
+			float: right;
+		}
+		span {
+			color: #1989fa;
+		}
+	}
+}
+
+.btn-row {
+	padding-top: 1.2rem;
+}
+
+.header {
+	.logo {
+		background: url("../../assets/images/logo.jpg");
+	}
+}
+
+.van-cell--required::before {
+	content: '*';
+	position: absolute;
+	left: 5px;
+	top: 20px;
+	line-height: 26px;
+	font-size: 16px;
+	color: #f44;
+}
+
+.login-btn {
+	position: relative;
+	margin-top: 1rem;
+	width: 100%;
+}
+
+.login-input {
+	font-size: 18px;
+	line-height: 26px;
+	padding: 18px 15px;
+}
+
+.van-doc {
+	margin: 0;
+	font-weight: 400;
+	font-size: 14px;
+	color: rgba(69,90,100,.6);
+	padding: 35px 15px 15px;
+}
+
+.prompt {
+	margin-top: 74px;
+	.van-cell {
+		font-size: 20px;
+		line-height: 34px;
+		font-weight: 600;
+	}
+}
+
+.popup-class {
+	background: #f1f1f1;
+	.van-cell__value--alone {
+		text-align: center;
+	}
+}
+
+.join-title {
+	margin: 10px;
+	color: orange;
+}
+
+.cell-list {
+	margin-bottom: 20px;
+	overflow-y: scroll;
+	height: 20rem;
+}
+
+.logo-icon {
+	margin-top: 5rem;
+	width: 5rem;
+	height: 5rem;
+	background: url("../../assets/images/logo.jpg") no-repeat;
+	background-size: contain;
+}
+
+.sex-actionsheet {
+	background: #f4f4f4;
+	.van-actionsheet__header {
+		background: #ffffff;
+	}
+	.sex {
+		background: #ffffff;
+		margin-bottom: 10px;
+		display: flex;
+		.man {
+			width: 50%;
+			height: 120px;
+			border-right: 1px solid #f1f1f1;
+			background: url("../../assets/images/man.png") no-repeat center;
+			background-size: contain;
+		}
+		.woman {
+			width: 50%;
+			height: 120px;
+			background: url("../../assets/images/woman.png") no-repeat center;
+			background-size: contain;
+		}
+	}
+	.cancel {
+		background: #ffffff;
+		text-align: center;
+		height: 50px;
+		line-height: 50px;
+		font-weight: 400;
+		font-size: 20px;
+	}
+}
+

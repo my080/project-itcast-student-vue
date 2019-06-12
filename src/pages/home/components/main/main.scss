@@ -1,0 +1,61 @@
+
+@import "../../../../common/icons/iconfont.css";
+
+main {
+	padding: 20px;
+	.van-swipe {
+		height: 10rem;
+		border-radius: 8px;
+	}
+	.img1 {
+		height: 100%;
+		background: url("../../../../assets/images/timg1.jpg") no-repeat;
+		background-size: cover;
+	}
+	.img2 {
+		height: 100%;
+		background: url("../../../../assets/images/timg2.jpg") no-repeat;
+		background-size: cover;
+	}
+	.img3 {
+		height: 100%;
+		background: url("../../../../assets/images/64b4da7ax79a6f66e4623&690.jpg") no-repeat;
+		background-size: cover;
+	}
+	.img4 {
+		height: 100%;
+		background: url("../../../../assets/images/017257ee98900f95211360190be087a2.jpg") no-repeat;
+		background-size: cover;
+	}
+	.menus {
+		display: flex;
+		flex-wrap: nowrap;
+		.menu-item {
+			margin-top: 20px;
+			text-align: center;
+			flex-grow: 1;
+			h4 {
+				text-align: center;
+				margin-top: 12px;
+				color: #787887;
+			}
+		}
+		.yellow {
+			color: #F4EA2A;
+		}
+		.green {
+			color: #17C707;
+		}
+		.red {
+			color: #E84D16;
+		}
+		.orange {
+			color: orange;
+		}
+		span {
+			font-size: 3rem;
+			margin-top: 20px;
+		}
+		justify-content: center;
+	}
+}

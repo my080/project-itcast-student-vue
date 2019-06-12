@@ -1,0 +1,22 @@
+
+.learning-report {
+	.nav-bar {
+		position: fixed;
+	}
+}
+
+content {
+	padding-top: 54px;
+	#myChart {
+		width: 90%;
+		height: 300px;
+		margin: 20px auto;
+		border: 1px solid #CCC
+	}
+	#subjectChart {
+		width: 90%;
+		height: 350px;
+		margin: 20px auto;
+		border: 1px solid #CCC
+	}
+}

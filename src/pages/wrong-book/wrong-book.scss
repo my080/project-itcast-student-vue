@@ -1,0 +1,21 @@
+
+.wrong-book {
+	height: 100vh;
+	background: #f3f3f3;
+	.nav-bar {
+		.van-nav-bar__text {
+			color: #323233;
+			font-weight: 600;
+			font-size: 20px;
+		}
+		.van-nav-bar__title {
+			color: #323233;
+			font-size: 20px;
+			font-weight: 600;
+		}
+	}
+	.exercise-list {
+		margin-top: 20px;
+	}
+}
+
